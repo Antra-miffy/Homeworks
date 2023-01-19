@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+}
+form {
+    width: 90%;
+    margin: auto auto;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.twoitems {
+    display: grid;
+    width: 100%;
+    gap: 10px;
+    padding: 5px 0px;
+    grid-template-columns: auto auto;
+}
+.oneitem {
+    display: grid;
+    width:100%;
+    gap: 10px;
+    padding: 5px 0px;
+}
+
+input {
+    line-height: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgb(205, 204, 204);
+    padding: 3px 10px;
+    
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #acd4f3;
+    box-shadow: 1px 1px 3px #acd4f3, -1px -1px 3px #acd4f3;
+}
+
+button {
+    line-height: 2.4rem;
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+
+.blueButton {
+    background-color: rgb(83,139,197);
+
+}
+
+.greenButton {
+    background-color: rgb(116,181,102);
+}
+
+p {
+    text-align: start;
+}
+
+span {
+    display: inline-block;
+    background-color:rgb(83,139,197);
+    color:white;
+    max-width: 4rem;
+    min-width: 4rem;
+    font-size: 0.96rem;
+    text-align: center;
+    border:rgb(83,139,197)solid 4px;
+    border-radius: 4px;
+}
+
+terms {
+    color:rgb(21, 113, 204);
+    text-decoration: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+#agreebox{
+    margin-left: 10px;
+}
